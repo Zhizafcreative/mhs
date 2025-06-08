@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform Pembelajaran Digital Marketing - Bisnis Digital</title>
+    <meta name="description" content="Platform pembelajaran mata kuliah Digital Marketing dengan teknologi Agentic AI untuk program studi Bisnis Digital">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Meta tags for PWA -->
+    <meta name="theme-color" content="#3b82f6">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Digital Marketing">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Platform Pembelajaran Digital Marketing">
+    <meta property="og:description" content="Platform pembelajaran mata kuliah Digital Marketing dengan teknologi Agentic AI untuk program studi Bisnis Digital">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://username.github.io/mhs">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/3b82f6/ffffff?text=Digital+Marketing+Platform">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Platform Pembelajaran Digital Marketing">
+    <meta name="twitter:description" content="Platform pembelajaran mata kuliah Digital Marketing dengan teknologi Agentic AI">
+    <meta name="twitter:image" content="https://via.placeholder.com/1200x630/3b82f6/ffffff?text=Digital+Marketing+Platform">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Digital Marketing Learning</span>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#dashboard" class="nav-link active">Dashboard</a></li>
+                        <li><a href="#materi" class="nav-link">Materi</a></li>
+                        <li><a href="#ai-assistant" class="nav-link">AI Assistant</a></li>
+                        <li><a href="#progress" class="nav-link">Progress</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <div class="user-profile">
+                        <img src="https://via.placeholder.com/40x40" alt="Profile" class="profile-img">
+                        <span class="username">Mahasiswa</span>
+                    </div>
+                </div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Selamat Datang di Platform Digital Marketing</h1>
+                    <p class="hero-subtitle">Pelajari strategi pemasaran digital terkini dengan bantuan teknologi Agentic AI</p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">12</span>
+                            <span class="stat-label">Modul Pembelajaran</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">85%</span>
+                            <span class="stat-label">Progress Anda</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">AI Assistant</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dashboard Section -->
+        <section id="dashboard" class="dashboard">
+            <div class="container">
+                <h2 class="section-title">Dashboard Pembelajaran</h2>
+                <div class="dashboard-grid">
+                    <!-- Quick Actions -->
+                    <div class="dashboard-card">
+                        <div class="card-header">
+                            <h3>Aksi Cepat</h3>
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="quick-actions">
+                                <button class="action-btn primary">
+                                    <i class="fas fa-play"></i>
+                                    Lanjutkan Pembelajaran
+                                </button>
+                                <button class="action-btn secondary">
+                                    <i class="fas fa-robot"></i>
+                                    Tanya AI Assistant
+                                </button>
+                                <button class="action-btn tertiary">
+                                    <i class="fas fa-chart-line"></i>
+                                    Lihat Progress
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Recent Activities -->
+                    <div class="dashboard-card">
+                        <div class="card-header">
+                            <h3>Aktivitas Terbaru</h3>
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="activity-list">
+                                <div class="activity-item">
+                                    <div class="activity-icon">
+                                        <i class="fas fa-check-circle"></i>
+                                    </div>
+                                    <div class="activity-content">
+                                        <p>Menyelesaikan Modul: SEO Fundamentals</p>
+                                        <span class="activity-time">2 jam yang lalu</span>
+                                    </div>
+                                </div>
+                                <div class="activity-item">
+                                    <div class="activity-icon">
+                                        <i class="fas fa-comments"></i>
+                                    </div>
+                                    <div class="activity-content">
+                                        <p>Diskusi dengan AI tentang Social Media Strategy</p>
+                                        <span class="activity-time">1 hari yang lalu</span>
+                                    </div>
+                                </div>
+                                <div class="activity-item">
+                                    <div class="activity-icon">
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="activity-content">
+                                        <p>Mendapat badge: Content Marketing Expert</p>
+                                        <span class="activity-time">3 hari yang lalu</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Progress Overview -->
+                    <div class="dashboard-card">
+                        <div class="card-header">
+                            <h3>Overview Progress</h3>
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="progress-overview">
+                                <div class="progress-circle">
+                                    <svg class="progress-ring" width="120" height="120">
+                                        <circle class="progress-ring-circle" stroke="#e2e8f0" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                                        <circle class="progress-ring-circle progress-ring-fill" stroke="#3b82f6" stroke-width="8" fill="transparent" r="52" cx="60" cy="60" style="stroke-dasharray: 326.73; stroke-dashoffset: 48.9;"/>
+                                    </svg>
+                                    <div class="progress-text">
+                                        <span class="progress-percentage">85%</span>
+                                        <span class="progress-label">Selesai</span>
+                                    </div>
+                                </div>
+                                <div class="progress-details">
+                                    <div class="progress-item">
+                                        <span class="progress-item-label">Modul Selesai</span>
+                                        <span class="progress-item-value">10/12</span>
+                                    </div>
+                                    <div class="progress-item">
+                                        <span class="progress-item-label">Quiz Passed</span>
+                                        <span class="progress-item-value">8/10</span>
+                                    </div>
+                                    <div class="progress-item">
+                                        <span class="progress-item-label">Assignments</span>
+                                        <span class="progress-item-value">5/6</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Materi Section -->
+        <section id="materi" class="materi">
+            <div class="container">
+                <h2 class="section-title">Materi Pembelajaran</h2>
+                <div class="materi-grid">
+                    <div class="materi-card completed">
+                        <div class="materi-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="materi-content">
+                            <h3>SEO & SEM</h3>
+                            <p>Optimasi mesin pencari dan pemasaran berbayar</p>
+                            <div class="materi-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="progress-text">100% Selesai</span>
+                            </div>
+                        </div>
+                        <div class="materi-status">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                    </div>
+
+                    <div class="materi-card completed">
+                        <div class="materi-icon">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div class="materi-content">
+                            <h3>Social Media Marketing</h3>
+                            <p>Strategi pemasaran di platform media sosial</p>
+                            <div class="materi-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="progress-text">100% Selesai</span>
+                            </div>
+                        </div>
+                        <div class="materi-status">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                    </div>
+
+                    <div class="materi-card in-progress">
+                        <div class="materi-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="materi-content">
+                            <h3>Email Marketing</h3>
+                            <p>Kampanye email yang efektif dan otomatisasi</p>
+                            <div class="materi-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 65%"></div>
+                                </div>
+                                <span class="progress-text">65% Selesai</span>
+                            </div>
+                        </div>
+                        <div class="materi-status">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                    </div>
+
+                    <div class="materi-card">
+                        <div class="materi-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="materi-content">
+                            <h3>Analytics & Data</h3>
+                            <p>Analisis data dan pengukuran performa</p>
+                            <div class="materi-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 0%"></div>
+                                </div>
+                                <span class="progress-text">Belum Dimulai</span>
+                            </div>
+                        </div>
+                        <div class="materi-status">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Assistant Section -->
+        <section id="ai-assistant" class="ai-assistant">
+            <div class="container">
+                <h2 class="section-title">AI Assistant</h2>
+                <div class="ai-container">
+                    <div class="chat-container">
+                        <div class="chat-header">
+                            <div class="ai-avatar">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="ai-info">
+                                <h3>Digital Marketing AI</h3>
+                                <span class="ai-status">Online</span>
+                            </div>
+                        </div>
+                        <div class="chat-messages" id="chatMessages">
+                            <div class="message ai-message">
+                                <div class="message-avatar">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                                <div class="message-content">
+                                    <p>Halo! Saya adalah AI Assistant untuk mata kuliah Digital Marketing. Saya siap membantu Anda memahami konsep-konsep pemasaran digital. Apa yang ingin Anda pelajari hari ini?</p>
+                                    <span class="message-time">Baru saja</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat-input">
+                            <div class="input-container">
+                                <input type="text" id="messageInput" placeholder="Tanyakan sesuatu tentang Digital Marketing...">
+                                <button id="sendMessage" class="send-btn">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ai-suggestions">
+                        <h4>Pertanyaan Populer</h4>
+                        <div class="suggestion-list">
+                            <button class="suggestion-btn">Apa itu SEO dan bagaimana cara kerjanya?</button>
+                            <button class="suggestion-btn">Strategi terbaik untuk social media marketing?</button>
+                            <button class="suggestion-btn">Bagaimana mengukur ROI dari kampanye digital?</button>
+                            <button class="suggestion-btn">Tips membuat content marketing yang engaging?</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Program Studi Bisnis Digital</h4>
+                    <p>Platform pembelajaran Digital Marketing dengan teknologi Agentic AI</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontak</h4>
+                    <p>Email: info@bisnisdigital.ac.id</p>
+                    <p>Phone: +62 21 1234 5678</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Program Studi Bisnis Digital. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

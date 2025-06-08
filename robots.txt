@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://username.github.io/mhs/sitemap.xml
+
+# Disallow crawling of specific files
+Disallow: /_config.yml
+Disallow: /manifest.json
+Disallow: /.github/
+
+# Allow crawling of main content
+Allow: /index.html
+Allow: /style.css
+Allow: /script.js
+
+# Crawl delay (optional)
+Crawl-delay: 1

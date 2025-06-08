@@ -1,0 +1,52 @@
+# GitHub Pages Configuration
+title: "Platform Pembelajaran Digital Marketing"
+description: "Platform pembelajaran mata kuliah Digital Marketing dengan teknologi Agentic AI untuk program studi Bisnis Digital"
+url: "https://username.github.io"
+baseurl: "/mhs"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - LICENSE
+  - .gitignore
+  - node_modules/
+  - package*.json
+
+# Include files
+include:
+  - _headers
+  - _redirects
+
+# Plugin settings
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# SEO settings
+author: "Program Studi Bisnis Digital"
+twitter:
+  username: bisnisdigital
+  card: summary_large_image
+
+# Social media
+social:
+  name: "Platform Digital Marketing"
+  links:
+    - https://github.com/username/mhs
+
+# Analytics (uncomment and configure if needed)
+# google_analytics: UA-XXXXXXXX-X
+
+# Security headers (for _headers file)
+headers: |
+  /*
+    X-Frame-Options: DENY
+    X-Content-Type-Options: nosniff
+    X-XSS-Protection: 1; mode=block
+    Referrer-Policy: strict-origin-when-cross-origin
+    Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'
